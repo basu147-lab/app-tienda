@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Usuario</title>
+    <link rel="stylesheet" href="/static/css/shared_theme.css">
+    <link rel="stylesheet" href="/auth/css/register.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Registro de Usuario</h2>
+        <form id="registerForm">
+            <div>
+                <label for="newUsername">Usuario:</label>
+                <input type="text" id="newUsername" name="newUsername" required>
+            </div>
+            <div>
+                <label for="newPassword">Contraseña:</label>
+                <input type="password" id="newPassword" name="newPassword" required>
+            </div>
+            <div>
+                <label for="confirmPassword">Confirmar Contraseña:</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required>
+            </div>
+            <div>
+                <label for="securityQuestion">Pregunta de Seguridad:</label>
+                <select id="securityQuestion" name="securityQuestion" required>
+                    <option value="mother_middle_name">¿Cuál es el segundo nombre de tu madre?</option>
+                    <option value="first_pet_name">¿Cuál fue el nombre de tu primera mascota?</option>
+                    <option value="elementary_school">¿Cómo se llamaba tu escuela primaria?</option>
+                    <option value="childhood_favorite_food">¿Cuál es tu comida favorita de la infancia?</option>
+                    <option value="birth_city">¿En qué ciudad naciste?</option>
+                    <option value="first_car_model">¿Cuál era el modelo de tu primer automóvil?</option>
+                    <option value="childhood_best_friend">¿Cómo se llamaba tu mejor amigo(a) de la infancia?</option>
+                    <option value="first_toy_name">¿Qué nombre le diste a tu primer juguete o peluche?</option>
+                    <option value="favorite_childhood_vacation">¿Dónde pasaste tus vacaciones favoritas de la infancia?</option>
+                    <option value="maternal_grandfather_last_name">¿Cuál es el segundo apellido de tu abuelo materno?</option>
+                </select>
+            </div>
+            <div>
+                <label for="securityAnswer">Respuesta de Seguridad:</label>
+                <input type="text" id="securityAnswer" name="securityAnswer" required>
+            </div>
+            <button type="submit">Registrarse</button>
+        </form>
+        <p>¿Ya tienes cuenta? <a href="login.html">Inicia sesión aquí</a></p>
+    </div>
+    <script src="js/register.js"></script>
+</body>
+</html>
