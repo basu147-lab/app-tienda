@@ -3,7 +3,7 @@ package com.puntofacil.di
 import android.content.Context
 import androidx.room.Room
 import com.puntofacil.database.AppDatabase
-import com.puntofacil.database.dao.*
+import com.puntofacil.pos.data.local.dao.*
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

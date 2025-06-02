@@ -1,6 +1,6 @@
 package com.puntofacil.di
 
-import com.puntofacil.database.dao.*
+import com.puntofacil.pos.data.local.dao.*
 import com.puntofacil.repository.*
 import dagger.Module
 import dagger.Provides

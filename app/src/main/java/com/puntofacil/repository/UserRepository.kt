@@ -1,7 +1,7 @@
 package com.puntofacil.repository
 
-import com.puntofacil.database.dao.UserDao
-import com.puntofacil.database.entity.UserEntity
+import com.puntofacil.pos.data.local.dao.UserDao
+import com.puntofacil.pos.data.local.entities.UserEntity
 import kotlinx.coroutines.flow.Flow
 import java.security.MessageDigest
 import java.util.Date

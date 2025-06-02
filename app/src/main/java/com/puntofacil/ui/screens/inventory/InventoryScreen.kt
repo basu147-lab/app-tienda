@@ -14,7 +14,7 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
-import com.puntofacil.database.entity.ProductEntity
+import com.puntofacil.pos.data.local.entities.ProductEntity
 import com.puntofacil.ui.theme.PuntoFacilTheme
 import java.text.NumberFormat
 import java.util.*

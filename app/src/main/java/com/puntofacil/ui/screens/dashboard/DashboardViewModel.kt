@@ -2,7 +2,7 @@ package com.puntofacil.ui.screens.dashboard
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.puntofacil.database.entity.UserEntity
+import com.puntofacil.pos.data.local.entities.UserEntity
 import com.puntofacil.repository.CustomerRepository
 import com.puntofacil.repository.ProductRepository
 import com.puntofacil.repository.SaleRepository

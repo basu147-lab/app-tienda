@@ -5,8 +5,9 @@ import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
 import android.content.Context
-import com.puntofacil.database.dao.*
-import com.puntofacil.database.entity.*
+import com.puntofacil.pos.data.local.dao.*
+import com.puntofacil.pos.data.local.entities.*
+import com.puntofacil.pos.data.local.converters.Converters
 
 @Database(
     entities = [

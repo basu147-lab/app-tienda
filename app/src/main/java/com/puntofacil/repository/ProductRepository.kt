@@ -1,7 +1,7 @@
 package com.puntofacil.repository
 
-import com.puntofacil.database.dao.ProductDao
-import com.puntofacil.database.entity.ProductEntity
+import com.puntofacil.pos.data.local.dao.ProductDao
+import com.puntofacil.pos.data.local.entities.ProductEntity
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 import java.math.BigDecimal

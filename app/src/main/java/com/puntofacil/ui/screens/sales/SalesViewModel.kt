@@ -2,7 +2,7 @@ package com.puntofacil.ui.screens.sales
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.puntofacil.database.entity.ProductEntity
+import com.puntofacil.pos.data.local.entities.ProductEntity
 import com.puntofacil.repository.ProductRepository
 import com.puntofacil.repository.SaleRepository
 import dagger.hilt.android.lifecycle.HiltViewModel

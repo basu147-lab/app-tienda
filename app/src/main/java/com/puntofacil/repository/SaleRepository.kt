@@ -1,10 +1,10 @@
 package com.puntofacil.repository
 
-import com.puntofacil.database.dao.SaleDao
-import com.puntofacil.database.dao.SaleItemDao
-import com.puntofacil.database.dao.ProductDao
-import com.puntofacil.database.entity.SaleEntity
-import com.puntofacil.database.entity.SaleItemEntity
+import com.puntofacil.pos.data.local.dao.SaleDao
+import com.puntofacil.pos.data.local.dao.SaleItemDao
+import com.puntofacil.pos.data.local.dao.ProductDao
+import com.puntofacil.pos.data.local.entities.SaleEntity
+import com.puntofacil.pos.data.local.entities.SaleItemEntity
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 import java.math.BigDecimal

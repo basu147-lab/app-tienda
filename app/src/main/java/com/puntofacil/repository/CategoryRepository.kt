@@ -1,7 +1,7 @@
 package com.puntofacil.repository
 
-import com.puntofacil.database.dao.CategoryDao
-import com.puntofacil.database.entity.CategoryEntity
+import com.puntofacil.pos.data.local.dao.CategoryDao
+import com.puntofacil.pos.data.local.entities.CategoryEntity
 import kotlinx.coroutines.flow.Flow
 import java.util.Date
 import java.util.UUID
